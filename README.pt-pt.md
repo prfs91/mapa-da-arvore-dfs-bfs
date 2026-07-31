@@ -27,12 +27,12 @@ A implementação demonstra fundamentos sólidos em engenharia de software e ló
 ### 1. Pesquisa em Profundidade (DFS)
 * **Estratégia:** Exploração Vertical Exaustiva.
 * **Comportamento:** Prioriza descer até aos nós folha/terminais (o ponto mais profundo de um ramo) antes de invocar blocos de *backtracking* na pilha de memória para explorar caminhos adjacentes.
-* **Contexto Técnico:** Implementado de forma recursiva com estados base explícitos (`if visitados is None`) para demonstrar propagação de chamadas de pilha e rastreio de estado. Complexidade de Tempo: \(\mathcal{O}(V + E)\).
+* **Contexto Técnico:** Implementado de forma recursiva com estados base explícitos (`if visitados is None`) para demonstrar propagação de chamadas de pilha e rastreio de estado. Complexidade de Tempo: $\mathcal{O}(V + E)$.
 
 ### 2. Pesquisa em Largura (BFS)
 * **Estratégia:** Exploração Horizontal por Camadas.
 * **Comportamento:** Explora todos os nós camada por camada (nível por nível) antes de descer na hierarquia da árvore.
-* **Contexto Técnico:** Implementado utilizando mecânicas de fila de espera de alta performance (`popleft()`), servindo como benchmark computacional para encontrar o caminho mais curto em termos de níveis da árvore. Complexidade de Tempo: \(\mathcal{O}(V + E)\).
+* **Contexto Técnico:** Implementado utilizando mecânicas de fila de espera de alta performance (`popleft()`), servindo como benchmark computacional para encontrar o caminho mais curto em termos de níveis da árvore. Complexidade de Tempo: $\mathcal{O}(V + E)$.
 
 ## 📸 Visualização Técnica
 
