@@ -27,12 +27,12 @@ The implementation demonstrates solid foundations in software engineering and co
 ### 1. Depth-First Search (DFS)
 * **Strategy:** Exhaustive Vertical Traversal.
 * **Behavior:** Prioritizes tracking down to the leaf nodes (deepest branch) before executing backtracks to explore adjacent paths.
-* **Tech Context:** Implemented recursively with explicit base-case states (`if visitados is None`) to demonstrate recursive call-stack propagation and state tracking. Time Complexity: \(\mathcal{O}(V + E)\).
+* **Tech Context:** Implemented recursively with explicit base-case states (`if visitados is None`) to demonstrate recursive call-stack propagation and state tracking. Time Complexity: $\mathcal{O}(V + E)$.
 
 ### 2. Breadth-First Search (BFS)
 * **Strategy:** Layer-by-Layer Horizontal Traversal.
 * **Behavior:** Explores all nodes layer-by-layer (level-by-level) before descending down the hierarchy.
-* **Tech Context:** Implemented using performance queue mechanics (`popleft()`), serving as the computational benchmark for finding the shortest path in terms of tree levels. Time Complexity: \(\mathcal{O}(V + E)\).
+* **Tech Context:** Implemented using performance queue mechanics (`popleft()`), serving as the computational benchmark for finding the shortest path in terms of tree levels. Time Complexity: $\mathcal{O}(V + E)$.
 
 ## 📸 Technical Visualization
 
